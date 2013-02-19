@@ -1,0 +1,32 @@
+{
+  "name": "webrtc",
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "1.x",
+    "slm-util": "git+ssh://git@github.com/Svensklanemarknad/node-slm-util.git",
+    "socket.io": "0.9.x",
+    "socket.io-client": "0.9.x", 
+    "node-uuid": "1.3.x",
+    "winston": "0.6.x",
+    "node-transloadit": "0.x",
+    "airbrake": "0.2.x",
+    "request": "2.x",
+    "node-promise": "0.5.x",
+    "node-pjsua": "git+ssh://git@github.com/Svensklanemarknad/node-pjsua.git",
+    "connect": "2.x",
+    "connect-assets": "2.x",
+    "jade": "0.x",
+    "stylus": "0.x",
+    "http-proxy": "0.x",
+    "express": "3.0.x",
+    "passport": "0.1.x",
+    "passport-google": "0.2.x",
+    "nib": "0.9.x",
+    "libxmljs": "0.6.x",
+    "mkdirp": "0.3.x", 
+    "glob": "3.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
